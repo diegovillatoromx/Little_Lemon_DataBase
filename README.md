@@ -3,7 +3,7 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 
 ## Table of Contents 
 
-- [Have you created a GitHub repository to house your code?](#description)
+- [Have you created a GitHub repository to house your code?](#Have_you_created_a_GitHub_repository_to_house_your_code?)
 - [Have you generated an ER diagram of the tables in the Little Lemon database?](#architecture)
 - [Have you implemented a procedure called GetMaxQuantity() that returns the maximum quantity in an order?](#Dataset)
 - [Have you implemented a procedure called ManageBooking()  that manages bookings in the Little Lemon database?](#modular-code-overview)
@@ -11,7 +11,7 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 - [Have you implemented a procedure called UpdateBooking()  that alters an existing booking in the Little Lemon database?](#contribution) 
 - [Have you implemented a procedure called CancelBooking() that allows you remove bookings from the Little Lemon database?](#contact) 
   
-## Architecture
+## Have you created a GitHub repository to house your code?
 
 The Snowflake database architecture blends elements of traditional shared-disk and shared-nothing designs. It features a centralized data repository, akin to shared-disk architectures, ensuring universal access across all compute nodes. Snowflake enhances query performance through Massively Parallel Processing (MPP) compute clusters. Each node within the cluster locally stores a segment of the complete dataset, mirroring the principles of shared-nothing architectures. This approach harmonizes the simplicity of shared-disk designs with the speed and scalability inherent in shared-nothing architectures. 
 
