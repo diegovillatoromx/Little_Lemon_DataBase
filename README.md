@@ -4,7 +4,7 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 ## Table of Contents 
 
 - [Have you created a GitHub repository to house your code?](#description)
-- [Architecture](#architecture)
+- [Have you generated an ER diagram of the tables in the Little Lemon database?](#architecture)
 - [Dataset](#Dataset)
 - [Modular Code Overview](#modular-code-overview)
 - [Methodology](#Methodology)
