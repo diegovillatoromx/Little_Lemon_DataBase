@@ -8,7 +8,7 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 - [Have you implemented a procedure called GetMaxQuantity() that returns the maximum quantity in an order?](#Dataset)
 - [Have you implemented a procedure called ManageBooking()  that manages bookings in the Little Lemon database?](#modular-code-overview)
 - [Have you implemented the Python client so that you can communicate with your database using Python?](#Methodology)
-- [Contribution](#contribution) 
+- [Have you implemented a procedure called UpdateBooking()  that alters an existing booking in the Little Lemon database?](#contribution) 
 - [Contact](#contact) 
   
 ## Architecture
