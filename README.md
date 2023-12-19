@@ -15,60 +15,9 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 
 Yes, I have created a repository on GitHub, which serves not only to host the code but also to facilitate collaboration. I am open to contributions and suggestions, and you can find all the necessary information to contribute in the README file. Here is the link to the [repository](https://github.com/diegovillatoromx/Little_Lemon_DataBase/tree/main).
 
-![diagram](https://github.com/diegovillatoromx/Airflow-Managed-ETL-for-Snowflake-and-AWS-Data/blob/main/data_architecture.png)
-
 ## Have you generated an ER diagram of the tables in the Little Lemon database?
+![diagram](https://github.com/diegovillatoromx/Airflow-Managed-ETL-for-Snowflake-and-AWS-Data/blob/main/data_architecture.png)
  
-```terminal
-kinesis_snowflake_data_pipeline/
-├── src/
-│   ├── ec2_logs_emitter/
-│   │   ├── customer_data.py
-│   │   ├── order_data.py
-├── infrastructure/
-│   ├── create_s3_bucket.sh
-│   ├── setup_iam_role.sh
-│   ├── create_ec2_instance.sh
-│   ├── create_kinesis_firehose_delivery.sh
-│   ├── install_kinesis_agent.sh
-│   ├── move_data_to_firehose_delivery.sh
-│   ├── setup_snowflake.sh
-│   ├── create_airflow_dag.sh
-│   ├── mwaa_setup/
-│   │   ├── create_mwaa_environment.sh
-│   │   ├── add_snowflake_connection.sh
-├── config/
-│   ├── s3_bucket_config.json
-│   ├── iam_role_config.json
-│   ├── ec2_instance_config.json
-│   ├── kinesis_firehose_delivery.json
-│   ├── kinesis_agent_config.json
-│   ├── snowflake_config.json
-│   ├── airflow_dag_config.json
-│   ├── mwaa_config/
-│   │   ├── mwaa_environment_config.json
-│   │   ├── snowflake_connection_config.json
-├── data/
-│   ├── landing_zone/
-│   ├── processing_zone/
-│   ├── processed_zone/
-│   ├── customer/
-│   │   ├── customer_data_file.txt
-│   ├── order/
-│   │   ├── order_data_file.txt
-├── scripts/
-│   ├── upload_data_to_landing.sh
-│   ├── trigger_airflow_dag.sh
-│   ├── load_data_to_snowflake.sh
-│   ├── transform_data_in_snowflake.sh
-│   ├── transfer_data_between_zones.sh
-├── images/
-│   ├── kinesis_logo.png
-│   ├── airflow_logo.png
-│   ├── snowflake_logo.png
-├── README.md
-
-```
 
 ## Have you implemented a procedure called `GetMaxQuantity()` that returns the maximum quantity in an order? 
 
