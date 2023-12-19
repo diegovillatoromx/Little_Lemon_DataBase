@@ -8,8 +8,8 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 - [Have you implemented a procedure called `GetMaxQuantity()` that returns the maximum quantity in an order?](#Have_you_implemented_a_procedure_called_GetMaxQuantity()_that_returns_the_maximum_quantity_in_an_order?)
 - [Have you implemented a procedure called `ManageBooking()`  that manages bookings in the Little Lemon database?](#Have_you_implemented_a_procedure_called_ManageBooking()_that_manages_bookings_in_the_Little_Lemon_database?)
 - [Have you implemented the Python client so that you can communicate with your database using Python?](#Have_you_implemented_the_Python_client_so_that_you_can_communicate_with_your_database_using_Python?)
-- [Have you implemented a procedure called UpdateBooking()  that alters an existing booking in the Little Lemon database?](#contribution) 
-- [Have you implemented a procedure called CancelBooking() that allows you remove bookings from the Little Lemon database?](#contact) 
+- [Have you implemented a procedure called `UpdateBooking()`  that alters an existing booking in the Little Lemon database?](#Have_you_implemented_a_procedure_called_UpdateBooking()_that_alters_an_existing_booking_in_the_Little_Lemon_database?) 
+- [Have you implemented a procedure called CancelBooking() that allows you remove bookings from the Little Lemon database?](#Have you implemented a procedure called CancelBooking() that allows you remove bookings from the Little Lemon database?) 
   
 ## Have you created a GitHub repository to house your code?
 
@@ -77,3 +77,6 @@ kinesis_snowflake_data_pipeline/
 ## Have you implemented the Python client so that you can communicate with your database using Python?
 
 ## Have you implemented a procedure called UpdateBooking()  that alters an existing booking in the Little Lemon database?
+
+## Have you implemented a procedure called CancelBooking() that allows you remove bookings from the Little Lemon database?
+
