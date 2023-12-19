@@ -1,13 +1,9 @@
 # Little_Lemon_DataBase
 Little Lemon needs to build a robust relational database system in MySQL to store large amounts of data which they can also easily manage and locate as required. 
 
-# Efficient Airflow-Managed ETL: AWS EC2 Logs to Snowflake Data Pipeline 
-
-Airflow-Managed ETL: Seamlessly integrate AWS EC2 logs into Snowflake and S3. Defined transformations, orchestrated by Airflow DAGs, ensure a robust, scalable workflow. Achieve comprehensive data management  for Snowflake and AWS in one streamlined solution. 
-
 ## Table of Contents 
 
-- [Description](#description)
+- [Have you created a GitHub repository to house your code?](#description)
 - [Architecture](#architecture)
 - [Dataset](#Dataset)
 - [Modular Code Overview](#modular-code-overview)
