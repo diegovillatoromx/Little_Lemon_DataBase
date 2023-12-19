@@ -4,8 +4,8 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 ## Table of Contents 
 
 - [Have you created a GitHub repository to house your code?](#Have_you_created_a_GitHub_repository_to_house_your_code?)
-- [Have you generated an ER diagram of the tables in the Little Lemon database?](#architecture)
-- [Have you implemented a procedure called GetMaxQuantity() that returns the maximum quantity in an order?](#Dataset)
+- [Have you generated an ER diagram of the tables in the Little Lemon database?](#Have_you_generated_an_ER_diagram_of_the_tables_in_the_Little_Lemon_database?)
+- [Have you implemented a procedure called `GetMaxQuantity()` that returns the maximum quantity in an order?](#Have_you_implemented_a_procedure_called_GetMaxQuantity()_that_returns_the_maximum_quantity_in_an_order?)
 - [Have you implemented a procedure called ManageBooking()  that manages bookings in the Little Lemon database?](#modular-code-overview)
 - [Have you implemented the Python client so that you can communicate with your database using Python?](#Methodology)
 - [Have you implemented a procedure called UpdateBooking()  that alters an existing booking in the Little Lemon database?](#contribution) 
@@ -17,7 +17,7 @@ The Snowflake database architecture blends elements of traditional shared-disk a
 
 ![diagram](https://github.com/diegovillatoromx/Airflow-Managed-ETL-for-Snowflake-and-AWS-Data/blob/main/data_architecture.png)
 
-## Modular Code Overview
+## Have you generated an ER diagram of the tables in the Little Lemon database?
  
 ```terminal
 kinesis_snowflake_data_pipeline/
@@ -69,3 +69,5 @@ kinesis_snowflake_data_pipeline/
 ├── README.md
 
 ```
+
+## Have you implemented a procedure called `GetMaxQuantity()` that returns the maximum quantity in an order? 
