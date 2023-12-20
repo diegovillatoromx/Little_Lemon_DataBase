@@ -16,7 +16,9 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 Yes, I have created a repository on GitHub, which serves not only to host the code but also to facilitate collaboration. I am open to contributions and suggestions, and you can find all the necessary information to contribute in the README file. Here is the link to the [repository](https://github.com/diegovillatoromx/Little_Lemon_DataBase/tree/main).
 
 ## Have you generated an ER diagram of the tables in the Little Lemon database? 
-![EER_diagrama](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/EER_diagram.png)
+![EER_diagrama](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK1/EER_diagram.png)
+
+
 ## Have you implemented a procedure called `GetMaxQuantity()` that returns the maximum quantity in an order? 
 
 ## Have you implemented a procedure called `ManageBooking()`  that manages bookings in the Little Lemon database?
