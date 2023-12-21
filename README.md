@@ -76,6 +76,40 @@ Through this implementation, it is possible to quickly identify the largest orde
 
 ## Have you implemented a procedure called `ManageBooking()`  that manages bookings in the Little Lemon database?
 
+Yes, I have developed a stored procedure named `CheckBooking()` for the Little Lemon database (`littlelemondb`). The purpose of this procedure is to check whether a particular table is booked on a given date. This functionality is particularly useful for managing reservations and optimizing table allocations.
+
+Here's the SQL script for the `CheckBooking()` procedure:
+
+```sql
+-- Setting the current database to littlelemondb
+USE littlelemondb;
+
+-- Dropping the procedure if it exists to avoid any conflicts
+DROP PROCEDURE IF EXISTS CheckBooking;
+
+-- Changing the delimiter for the stored procedure creation
+DELIMITER //
+
+-- Creating the stored procedure
+CREATE PROCEDURE CheckBooking (IN booking_date DATE, IN table_no INT)
+BEGIN
+    IF EXISTS(SELECT 1 FROM Bookings WHERE BookingDate = booking_date AND TableNumber = table_no)
+    THEN
+        SELECT CONCAT("Table ", table_no, " is already booked.") AS `Booking status`; 
+    ELSE
+        SELECT CONCAT("Table ", table_no, " is not yet booked.") AS `Booking status`; 
+    END IF;
+END //
+
+DELIMITER ;
+
+```
+
+The `CheckBooking()` procedure operates by checking the `Bookings` table for an existing booking that matches the given date and table number. If such a booking exists, it returns a message stating that the table is already booked. Otherwise, it indicates that the table is not yet booked.
+
+This procedure enhances the operational efficiency of booking management by providing a quick and reliable way to check the availability of tables. It's an essential tool for the staff at Little Lemon to manage reservations effectively and provide better service to the customers.
+
+
 ## Have you implemented the Python client so that you can communicate with your database using Python?
 
 Yes, I have successfully implemented a Python client to communicate with the Little Lemon database. Using the `mysql-connector-python` library, I established a connection to the database and performed various operations, including querying data and executing SQL commands.
