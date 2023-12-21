@@ -242,13 +242,10 @@ The `CancelBooking()` procedure thus offers a reliable method to manage the dele
 ![line_chart](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK3/Sales%20Bubble%20Chart.PNG)
 
 ### Sales and Profit Chart
-![line_chart](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK3/Sales_and_Profits_Chart.PNG)
+![line_chart](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK3/Profit_Chart.PNG)
 
 ### Bar Chart
 ![line_chart](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK3/Sales_Bar_Chart.PNG)
-
-### Sales Dashboard Chart
-![line_chart](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK3/Sales_Dashboard.PNG)
 
 ### Sales Pie Chart
 ![line_chart](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK3/Sales_Pie_Chart.PNG)
