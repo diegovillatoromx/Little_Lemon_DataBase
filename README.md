@@ -125,5 +125,38 @@ connection.close()
 
 ## Have you implemented a procedure called `UpdateBooking()`  that alters an existing booking in the Little Lemon database?
 
+Yes, I have implemented a stored procedure named `UpdateBooking()` in the littlelemondb database. This procedure is designed to update the booking date for an existing booking in the Bookings table, identified by its booking ID.
+
+Here's the SQL script for the `UpdateBooking()` procedure:
+
+```sql
+-- Setting the current database to littlelemondb
+USE littlelemondb;
+
+-- Dropping the procedure if it already exists to avoid conflicts
+DROP PROCEDURE IF EXISTS UpdateBooking;
+
+-- Changing the delimiter to create the stored procedure
+DELIMITER //
+
+-- Creating the stored procedure
+CREATE PROCEDURE UpdateBooking (IN booking_id INT, IN booking_date DATE)
+BEGIN
+    START TRANSACTION;
+    IF NOT EXISTS(SELECT 1 FROM Bookings WHERE (BookingID = booking_id))
+    THEN
+        SELECT CONCAT("Booking ", booking_id, " does not exist.") AS `Message`;
+        ROLLBACK;
+    ELSE
+        UPDATE Bookings SET BookingDate = booking_date WHERE BookingID = booking_id;
+        COMMIT;
+        -- SELECT CONCAT("Booking ", booking_id, " updated.") AS `Confirmation`; 
+    END IF;
+END //
+
+DELIMITER ;
+```
+
+
 ## Have you implemented a procedure called `CancelBooking()` that allows you remove bookings from the Little Lemon database?
 
