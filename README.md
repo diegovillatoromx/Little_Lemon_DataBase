@@ -10,7 +10,7 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 - [Have you implemented the Python client so that you can communicate with your database using Python?](#have-you-implemented-the-python-client-so-that-you-can-communicate-with-your-database-using-python)
 - [Have you implemented a procedure called `UpdateBooking()` that alters an existing booking in the Little Lemon database?](#have-you-implemented-a-procedure-called-updatebooking-that-alters-an-existing-booking-in-the-little-lemon-database)
 - [Have you implemented a procedure called `CancelBooking()` that allows you remove bookings from the Little Lemon database?](#have-you-implemented-a-procedure-called-cancelbooking-that-allows-you-remove-bookings-from-the-little-lemon-database)
-- [Using Tableu](#using-tableu)
+- [Using Tableu to conduct data analysis and create sales reports](#using-tableu-to-conduct-data-analysis-and-create-sales-reports)
 
   
 ## Have you created a GitHub repository to house your code?
@@ -233,7 +233,8 @@ This implementation ensures the safe removal of bookings, as it uses a transacti
 The `CancelBooking()` procedure thus offers a reliable method to manage the deletion of bookings in the Little Lemon database, enhancing the functionality and efficiency of the database management.
 
 
-## Using Tableu
+## Using Tableu to conduct data analysis and create sales reports
+In this project, we leverage Tableau's powerful data visualization capabilities to transform raw data into meaningful insights for our sales analysis. By carefully preparing our data and employing a range of suitable charts, we aim to provide a clear, actionable sales report. This approach not only elucidates key trends and patterns but also supports strategic decision-making through visually compelling analytics.
 
 ### Line Chart
 ![line_chart](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK3/Profit_Chart.PNG)
