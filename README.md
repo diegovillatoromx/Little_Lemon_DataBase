@@ -160,3 +160,41 @@ DELIMITER ;
 
 ## Have you implemented a procedure called `CancelBooking()` that allows you remove bookings from the Little Lemon database?
 
+Yes, I have implemented a stored procedure called `CancelBooking()` in the Little Lemon database (`littlelemondb`). This procedure enables the deletion of a specific booking based on the provided booking ID.
+
+Below is the SQL script for the `CancelBooking()` procedure:
+
+```sql
+-- Setting the current database to littlelemondb
+USE littlelemondb;
+
+-- Dropping the procedure if it already exists to ensure a clean setup
+DROP PROCEDURE IF EXISTS CancelBooking;
+
+-- Changing the delimiter for the stored procedure creation
+DELIMITER //
+
+-- Creating the stored procedure
+CREATE PROCEDURE CancelBooking (IN booking_id INT)
+BEGIN
+    START TRANSACTION;
+    IF NOT EXISTS(SELECT 1 FROM Bookings WHERE (BookingID = booking_id))
+    THEN
+        SELECT CONCAT("Booking ", booking_id, " does not exist.") AS `Message`;
+        ROLLBACK;
+    ELSE
+        DELETE FROM Bookings WHERE BookingID = booking_id;
+        COMMIT;
+        -- SELECT CONCAT("Booking ", booking_id, " cancelled.") AS `Confirmation`; 
+    END IF;
+END //
+
+DELIMITER ;
+```
+
+The `CancelBooking()` procedure initiates by checking if the booking with the specified ID exists in the Bookings table. If the booking is not found, the procedure rolls back any transaction and displays a message stating that the booking ID does not exist. In case the booking is present, it proceeds to delete the booking from the Bookings table and then commits the transaction.
+
+This implementation ensures the safe removal of bookings, as it uses a transaction to prevent unintended deletions. The ROLLBACK command is triggered if no matching booking ID is found, thereby maintaining the integrity of the database. When a valid booking ID is provided, the corresponding booking is securely removed from the database.
+
+The `CancelBooking()` procedure thus offers a reliable method to manage the deletion of bookings in the Little Lemon database, enhancing the functionality and efficiency of the database management.
+
