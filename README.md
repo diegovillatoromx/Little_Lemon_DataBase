@@ -45,6 +45,10 @@ Both scripts are integral to the project, offering a comprehensive setup and dep
 
 ## Have you implemented the Python client so that you can communicate with your database using Python?
 
+Yes, I have successfully implemented a Python client to communicate with the Little Lemon database. Using the `mysql-connector-python` library, I established a connection to the database and performed various operations, including querying data and executing SQL commands.
+
+Here is the code I used for this purpose:
+
 ## Have you implemented a procedure called `UpdateBooking()`  that alters an existing booking in the Little Lemon database?
 
 ## Have you implemented a procedure called `CancelBooking()` that allows you remove bookings from the Little Lemon database?
