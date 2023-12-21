@@ -228,13 +228,12 @@ DELIMITER ;
 The `CancelBooking()` procedure initiates by checking if the booking with the specified ID exists in the Bookings table. If the booking is not found, the procedure rolls back any transaction and displays a message stating that the booking ID does not exist. In case the booking is present, it proceeds to delete the booking from the Bookings table and then commits the transaction.
 
 
-## Using Tableu
-
-### Line chart
-
-[line-chart]()
-
 This implementation ensures the safe removal of bookings, as it uses a transaction to prevent unintended deletions. The ROLLBACK command is triggered if no matching booking ID is found, thereby maintaining the integrity of the database. When a valid booking ID is provided, the corresponding booking is securely removed from the database.
 
 The `CancelBooking()` procedure thus offers a reliable method to manage the deletion of bookings in the Little Lemon database, enhancing the functionality and efficiency of the database management.
 
+
+## Using Tableu
+
+### Line Chart
+![line_chart](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK3/Profit_Chart.PNG)
