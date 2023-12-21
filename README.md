@@ -34,7 +34,7 @@ As part of the database implementation, two key SQL scripts were developed:
 
 **`populate_little_lemon_database.sql`**: [This script](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK1/populate_little_lemon_database.sql) is pivotal for initializing the database. It encompasses all the necessary SQL commands to populate the tables with data. This step is crucial for setting up a realistic test environment that mirrors the actual operational data of the Little Lemon restaurant. By executing this script, the database tables are filled with data, making the database ready for use and testing.
 
-little_lemon.sql: Generated directly from MySQL Workbench, this script encapsulates the entire database schema as defined in the ER diagram. It includes the SQL statements for creating tables, defining relationships, and setting up constraints. This script is instrumental in deploying the database onto a server, ensuring that the database structure aligns precisely with the designed model.
+** `little_lemon.sql`**: Generated directly from MySQL Workbench, [this script] (https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK1/populate_little_lemon_database.sql) encapsulates the entire database schema as defined in the ER diagram. It includes the SQL statements for creating tables, defining relationships, and setting up constraints. This script is instrumental in deploying the database onto a server, ensuring that the database structure aligns precisely with the designed model.
 
 Both scripts are integral to the project, offering a comprehensive setup and deployment mechanism for the Little Lemon database.
 
