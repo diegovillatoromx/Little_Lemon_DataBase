@@ -10,6 +10,7 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 - [Have you implemented the Python client so that you can communicate with your database using Python?](#have-you-implemented-the-python-client-so-that-you-can-communicate-with-your-database-using-python)
 - [Have you implemented a procedure called `UpdateBooking()` that alters an existing booking in the Little Lemon database?](#have-you-implemented-a-procedure-called-updatebooking-that-alters-an-existing-booking-in-the-little-lemon-database)
 - [Have you implemented a procedure called `CancelBooking()` that allows you remove bookings from the Little Lemon database?](#have-you-implemented-a-procedure-called-cancelbooking-that-allows-you-remove-bookings-from-the-little-lemon-database)
+- [Using Tableu](#using-tableu)
 
   
 ## Have you created a GitHub repository to house your code?
@@ -225,6 +226,13 @@ DELIMITER ;
 ```
 
 The `CancelBooking()` procedure initiates by checking if the booking with the specified ID exists in the Bookings table. If the booking is not found, the procedure rolls back any transaction and displays a message stating that the booking ID does not exist. In case the booking is present, it proceeds to delete the booking from the Bookings table and then commits the transaction.
+
+
+## Using Tableu
+
+### Line chart
+
+[line-chart]()
 
 This implementation ensures the safe removal of bookings, as it uses a transaction to prevent unintended deletions. The ROLLBACK command is triggered if no matching booking ID is found, thereby maintaining the integrity of the database. When a valid booking ID is provided, the corresponding booking is securely removed from the database.
 
