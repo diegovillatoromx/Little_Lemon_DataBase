@@ -44,6 +44,36 @@ Both scripts are integral to the project, offering a comprehensive setup and dep
 
 ## Have you implemented a procedure called `GetMaxQuantity()` that returns the maximum quantity in an order? 
 
+Yes, I have successfully implemented a stored procedure named `GetMaxQuantity()` in the Little Lemon database (`littlelemondb`). This procedure is designed to retrieve the maximum quantity of an item in a single order from the Orders table.
+
+The following SQL script demonstrates the creation and execution of the `GetMaxQuantity()` procedure:
+
+```sql
+-- Setting the current database to littlelemondb
+USE littlelemondb;
+
+-- Changing the delimiter to create the stored procedure
+DELIMITER //
+
+-- Creating the stored procedure
+CREATE PROCEDURE GetMaxQuantity()
+BEGIN
+    SELECT Quantity as `Max Quantity in Order` FROM Orders
+    ORDER BY Quantity DESC
+    LIMIT 1;
+END //
+DELIMITER ;
+
+-- Calling the stored procedure to retrieve the maximum quantity
+CALL GetMaxQuantity;
+```
+The `GetMaxQuantity()` procedure operates by selecting the Quantity field from the Orders table. It orders the results in descending order based on the quantity and limits the output to only the top record. This approach ensures that the procedure returns the order with the highest quantity of items.
+
+Executing the `CALL GetMaxQuantity;` statement invokes the stored procedure, which then outputs the maximum quantity found in any order within the database.
+
+Through this implementation, it is possible to quickly identify the largest order by quantity, which can be useful for various analytical and operational purposes within the Little Lemon business context.
+
+
 ## Have you implemented a procedure called `ManageBooking()`  that manages bookings in the Little Lemon database?
 
 ## Have you implemented the Python client so that you can communicate with your database using Python?
