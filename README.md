@@ -55,7 +55,7 @@ Here is the code I used for this purpose:
 import mysql.connector as connector
 
 # Establishing connection to the database
-connection = connector.connect(user="dvilla", password="little_lemon@123!", db="littlelemondb")
+connection = connector.connect(user="your_user", password="your_password", db="your_database")
 cursor = connection.cursor()
 
 # Query to show all tables in the database
