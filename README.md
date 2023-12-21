@@ -3,8 +3,6 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 
 ## Table of Contents 
 
-## Table of Contents 
-
 - [Have you created a GitHub repository to house your code?](#have-you-created-a-github-repository-to-house-your-code)
 - [Have you generated an ER diagram of the tables in the Little Lemon database?](#have-you-generated-an-er-diagram-of-the-tables-in-the-little-lemon-database)
 - [Have you implemented a procedure called `GetMaxQuantity()` that returns the maximum quantity in an order?](#have-you-implemented-a-procedure-called-getmaxquantity-that-returns-the-maximum-quantity-in-an-order)
