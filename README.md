@@ -28,7 +28,7 @@ To kickstart the process, I utilized MySQL Workbench, a powerful visual tool, fo
 Through careful analysis and normalization practices, I identified key entities such as bookings, orders, menu items, customer details, and staff information. The relationships between these entities were meticulously defined to ensure a seamless flow of data and to uphold the principles of relational database design.
 
 Once the entities and relationships were clearly outlined, I employed MySQL Workbench's Model Editor to visually construct the Entity-Relationship (ER) diagram. This diagram serves as a blueprint of the database structure, illustrating how different tables are interlinked through primary and foreign keys, thereby facilitating a clear understanding of the database's layout and functionality. 
-
+ 
 The generated ER diagram not only visualizes the database structure but also aids in identifying potential areas for optimization and future scalability.
 
 SQL Scripts for Database Implementation
