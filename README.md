@@ -20,7 +20,7 @@ Yes, I have created a repository on GitHub, which serves not only to host the co
 ## Have you generated an ER diagram of the tables in the Little Lemon database?  
 In this section, I provide an overview of the steps and processes undertaken in developing the relational database system for Little Lemon. My primary objective was to create a comprehensive and efficient database model that would cater to the data management needs of Little Lemon, a dynamic and bustling restaurant environment.
 
-Generating the EER Diagram
+Generating the EER Diagram 
 To kickstart the process, I utilized MySQL Workbench, a powerful visual tool, for designing and modeling the database. The journey began with the conceptualization of the necessary tables and their relationships, considering both the operational requirements and data integrity of the Little Lemon restaurant.
 
 ![EER_diagrama](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK1/EER_diagram.png)
