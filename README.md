@@ -7,7 +7,7 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 - [Have you generated an ER diagram of the tables in the Little Lemon database?](#have-you-generated-an-er-diagram-of-the-tables-in-the-little-lemon-database)
 - [Have you implemented a procedure called `GetMaxQuantity()` that returns the maximum quantity in an order?](#have-you-implemented-a-procedure-called-getmaxquantity-that-returns-the-maximum-quantity-in-an-order)
 - [Have you implemented a procedure called `ManageBooking()` that manages bookings in the Little Lemon database?](#have-you-implemented-a-procedure-called-managebooking-that-manages-bookings-in-the-little-lemon-database)
-- [Have you implemented the Python client so that you can communicate with your database using Python?](#have-you-implemented-the-python-client-so-that-you-can-communicate-with-your-database-using-python)
+- [Have you implemented the Python client so that you can communicate with your database using Python?](#have-you-implemented-the-python-client-so-that-you-can-communicate-with-your-database-using-python) 
 - [Have you implemented a procedure called `UpdateBooking()` that alters an existing booking in the Little Lemon database?](#have-you-implemented-a-procedure-called-updatebooking-that-alters-an-existing-booking-in-the-little-lemon-database)
 - [Have you implemented a procedure called `CancelBooking()` that allows you remove bookings from the Little Lemon database?](#have-you-implemented-a-procedure-called-cancelbooking-that-allows-you-remove-bookings-from-the-little-lemon-database)
 - [Using Tableu to conduct data analysis and create sales reports](#using-tableu-to-conduct-data-analysis-and-create-sales-reports)
