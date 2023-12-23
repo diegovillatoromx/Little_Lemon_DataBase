@@ -203,7 +203,7 @@ USE littlelemondb;
 
 -- Dropping the procedure if it already exists to ensure a clean setup
 DROP PROCEDURE IF EXISTS CancelBooking;
-
+ 
 -- Changing the delimiter for the stored procedure creation
 DELIMITER //
 
