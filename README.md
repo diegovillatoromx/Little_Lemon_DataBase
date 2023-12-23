@@ -31,7 +31,7 @@ Once the entities and relationships were clearly outlined, I employed MySQL Work
   
 The generated ER diagram not only visualizes the database structure but also aids in identifying potential areas for optimization and future scalability.
 
-SQL Scripts for Database Implementation
+SQL Scripts for Database Implementation 
 As part of the database implementation, two key SQL scripts were developed:
 
 **`populate_little_lemon_database.sql`**: [This script](https://github.com/diegovillatoromx/Little_Lemon_DataBase/blob/main/WEEK1/populate_little_lemon_database.sql) is pivotal for initializing the database. It encompasses all the necessary SQL commands to populate the tables with data. This step is crucial for setting up a realistic test environment that mirrors the actual operational data of the Little Lemon restaurant. By executing this script, the database tables are filled with data, making the database ready for use and testing.
