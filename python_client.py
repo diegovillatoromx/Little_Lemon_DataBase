@@ -12,7 +12,7 @@ cursor.execute(show_tables_query)
 results = cursor.fetchall()
 
 # Printing the tables in the database
-for row in results:
+for row in results: 
     print(row)
 
 # Query to select specific data from customers and orders
