@@ -17,7 +17,7 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 
 Yes, I have created a repository on GitHub, which serves not only to host the code but also to facilitate collaboration. I am open to contributions and suggestions, and you can find all the necessary information to contribute in the README file. Here is the link to the [repository](https://github.com/diegovillatoromx/Little_Lemon_DataBase/tree/main).
 
-## Have you generated an ER diagram of the tables in the Little Lemon database?  
+## Have you generated an ER diagram of the tables in the Little Lemon database?   
 In this section, I provide an overview of the steps and processes undertaken in developing the relational database system for Little Lemon. My primary objective was to create a comprehensive and efficient database model that would cater to the data management needs of Little Lemon, a dynamic and bustling restaurant environment.
 
 Generating the EER Diagram 
