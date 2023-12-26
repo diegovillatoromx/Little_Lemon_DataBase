@@ -9,7 +9,7 @@ cursor = connection.cursor()
 # Query to show all tables in the database
 show_tables_query = "SHOW tables"
 cursor.execute(show_tables_query)
-results = cursor.fetchall() 
+results = cursor.fetchall()  
 
 # Printing the tables in the database
 for row in results: 
