@@ -5,7 +5,7 @@ import mysql.connector as connector
 # Establishing connection to the database
 connection = connector.connect(user="dvilla", password="little_lemon@123!", db="littlelemondb")
 cursor = connection.cursor()
-
+ 
 # Query to show all tables in the database
 show_tables_query = "SHOW tables"
 cursor.execute(show_tables_query)
