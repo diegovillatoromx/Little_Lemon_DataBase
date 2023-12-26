@@ -2,7 +2,7 @@
 !pip install mysql-connector-python
 import mysql.connector as connector 
 
-# Establishing connection to the database
+# Establishing connection to the database 
 connection = connector.connect(user="dvilla", password="little_lemon@123!", db="littlelemondb") 
 cursor = connection.cursor()
  
