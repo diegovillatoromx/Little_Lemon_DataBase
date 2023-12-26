@@ -12,7 +12,7 @@ Little Lemon needs to build a robust relational database system in MySQL to stor
 - [Have you implemented a procedure called `CancelBooking()` that allows you remove bookings from the Little Lemon database?](#have-you-implemented-a-procedure-called-cancelbooking-that-allows-you-remove-bookings-from-the-little-lemon-database) 
 - [Using Tableu to conduct data analysis and create sales reports](#using-tableu-to-conduct-data-analysis-and-create-sales-reports)
  
-  
+   
 ## Have you created a GitHub repository to house your code?
 
 Yes, I have created a repository on GitHub, which serves not only to host the code but also to facilitate collaboration. I am open to contributions and suggestions, and you can find all the necessary information to contribute in the README file. Here is the link to the [repository](https://github.com/diegovillatoromx/Little_Lemon_DataBase/tree/main).
