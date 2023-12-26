@@ -5,7 +5,7 @@ DELIMITER //
 CREATE PROCEDURE AddValidBooking(IN booking_date DATE, IN table_no INT, IN customer INT)
 BEGIN
 START TRANSACTION;
-SELECT BookingID INTO @id FROM Bookings ORDER BY BookingID DESC LIMIT 1;
+SELECT BookingID INTO @id FROM Bookings ORDER BY BookingID DESC LIMIT 1; 
 SET @id = @id + 1;
 IF EXISTS(SELECT 1 FROM Bookings WHERE (BookingDate = booking_date AND TableNumber = table_no))
 THEN
